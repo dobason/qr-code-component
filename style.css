@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit' , sans-serif;
+    background-color:  hsl(212, 45%, 89%);
+}
+
+
+/*Tạo khung*/
+.container {
+    width:450px;     /*Kích thước khung*/
+    display:flex;    
+    flex-direction: column; /*Sắp xêp các nội dung theo kiểu cột*/
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto 2rem;  /*Trái phải- trên dưới*/
+    padding: 1rem 1rem 1.5rem;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+/*Ảnh*/
+.container img {
+    width: 100%;
+    border-radius: 15px;
+}
+/*Dòng 1*/
+.container h2 {
+    font-weight: 700;
+    color:hsl(218, 44%, 22%);
+    padding:1rem;
+}
+
+/*Dòng 2*/
+.container p {
+    font-weight: 400;
+    color:hsl(220, 15%, 55%);
+    margin: 0 22px;
+}
+
+.attribution {
+    font: 15px;
+    text-align: center;
+}
